@@ -1,0 +1,28 @@
+.links-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #233532; /* Light background for contrast */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.link-item {
+    margin: 15px 0;
+}
+
+.link-item a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #E4E0E2; /* Dark color for the text and icon */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link-item a:hover {
+    color: #0077b6; /* Color change on hover, you can choose your preference */
+}
+
+.link-item i {
+    font-size: 24px;
+}
